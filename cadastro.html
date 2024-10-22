@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="./css/global.css">
+    </head>
+    <body>
+        <form action="cadastramento.html" method="post">
+            <h1>Cadastro</h1>
+            <label for="nomePessoa">Nome Completo:</label><br>
+            <input name="nomePessoa" type="text" required><br><br>
+            <label for="emailPessoa">Endereço de Email:</label><br>
+            <input name="emailPessoa" type="email" required><br><br>
+            <label for="senhaPessoa">Senha:</label><br>
+            <input name="senhaPessoa" type="password" required><br><br>
+            <label for="confirmarSenhaPessoa">Confirme sua senha:</label>
+            <input name="confirmarSenhaPessoa" type="password" required><br><br>
+            <label for="perfil">Perfil:</label><br><br>
+            <select name="perfil">
+                <option value="Professor">Professor</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Jogador">Jogador</option>
+            </select><br><br>
+            <a href="cadastramento.html"><button type="submit">Cadastrar</button><br><br></a>
+        </form>
+    </body>
+</html>
